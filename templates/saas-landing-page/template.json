@@ -1,0 +1,31 @@
+{
+  "name": "saas-landing-page",
+  "description": "Full SaaS marketing landing page — split hero, alternating feature sections, dark CTA, FAQ, and bottom CTA.",
+  "sections": [
+    "hero-split",
+    "social-proof",
+    "feature-video",
+    "dark-cta",
+    "feature-alternating",
+    "faq",
+    "bottom-cta"
+  ],
+  "files": [
+    "index.js",
+    "pages/hero-page.js"
+  ],
+  "components": ["lucide-icon"],
+  "slots": {
+    "appName": "Your app name",
+    "tagline": "One-line value proposition",
+    "subtagline": "Supporting sentence expanding on the value proposition",
+    "primaryCta": "Get Started",
+    "heroVisual": "Replace <hero-visual> with your hero component or image",
+    "feature1Headline": "Feature one headline",
+    "feature1Body": "Feature one description",
+    "feature1Visual": "Video, image or component",
+    "darkCtaHeadline": "Closing emotional headline",
+    "faqItems": "Replace faq-list data with your questions"
+  },
+  "tags": ["landing-page", "saas", "marketing", "hero", "faq"]
+}
