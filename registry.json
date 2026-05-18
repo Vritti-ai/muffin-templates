@@ -8,6 +8,14 @@
       "files": ["index.js", "pages/hero-page.js"],
       "components": ["lucide-icon"],
       "tags": ["landing-page", "saas", "marketing", "hero", "faq"]
+    },
+    "dark-media-landing-page": {
+      "name": "dark-media-landing-page",
+      "description": "Dark-themed, media-rich AI tool landing page — scrolling media wall hero, bento capabilities grid, numbered how-it-works, and fullscreen video-background closing CTA.",
+      "sections": ["hero-split-dark", "capabilities-bento", "how-it-works", "ai-pipeline", "social-proof", "video-cta", "faq"],
+      "files": ["index.js", "pages/landing-page.js"],
+      "components": ["lucide-icon"],
+      "tags": ["landing-page", "dark", "media-rich", "ai-tool", "bento", "video-cta", "creative"]
     }
   }
 }

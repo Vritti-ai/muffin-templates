@@ -1,0 +1,35 @@
+{
+  "name": "dark-media-landing-page",
+  "description": "Dark-themed, media-rich AI tool landing page — scrolling media wall hero, bento capabilities grid, numbered how-it-works, and fullscreen video-background closing CTA.",
+  "sections": [
+    "hero-split-dark",
+    "capabilities-bento",
+    "how-it-works",
+    "ai-pipeline",
+    "social-proof",
+    "video-cta",
+    "faq"
+  ],
+  "files": [
+    "index.js",
+    "pages/landing-page.js"
+  ],
+  "components": ["lucide-icon"],
+  "slots": {
+    "productName": "Your product name — shown as eyebrow label",
+    "accentColor": "CSS custom property --accent-color (e.g. #F7C948 for amber, #a78bfa for violet)",
+    "primaryColor": "CSS custom property --primary-color for secondary accents",
+    "tagline": "Hero headline — two-part, second part in accent color",
+    "audience": "Audience line below headline (e.g. 'For creators & brand builders')",
+    "ctaUrl": "Primary CTA link target",
+    "ctaLabel": "Primary CTA button label",
+    "heroMediaWall": "Replace <hero-media-wall> with your scrolling media grid component",
+    "bentoCards": "4 capability cards in the bento grid — customize headlines, descriptions, badge labels and border accent colors",
+    "howItWorksSteps": "3 numbered steps explaining how the product works",
+    "pipelineHeadline": "Under the hood / AI pipeline section headline",
+    "pipelineVisual": "Replace <pipeline-visual> with your graph/flow component",
+    "videoCtaSrc": "Fullscreen background video source URL",
+    "videoCtaPoster": "Poster frame for the background video"
+  },
+  "tags": ["landing-page", "dark", "media-rich", "ai-tool", "bento", "video-cta", "creative"]
+}
