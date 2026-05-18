@@ -1,4 +1,13 @@
 {
   "version": "0.1.0",
-  "templates": {}
+  "templates": {
+    "saas-landing-page": {
+      "name": "saas-landing-page",
+      "description": "Full SaaS marketing landing page — split hero, alternating feature sections, dark CTA, FAQ, and bottom CTA.",
+      "sections": ["hero-split", "social-proof", "feature-video", "dark-cta", "feature-alternating", "faq", "bottom-cta"],
+      "files": ["index.js", "pages/hero-page.js"],
+      "components": ["lucide-icon"],
+      "tags": ["landing-page", "saas", "marketing", "hero", "faq"]
+    }
+  }
 }
